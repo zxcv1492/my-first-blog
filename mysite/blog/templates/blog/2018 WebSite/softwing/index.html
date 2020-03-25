@@ -1,6 +1,6 @@
 <!-- Copyright ⓒ 2018 Softwing All Rights Reserved -->
 <!-- Edited by Highwater Digital Entertainment -->
-
+{% load static %}
 <!DOCTYPE HTML>
 
 <html>
@@ -14,12 +14,12 @@
 	<meta name="keywords" content="Sofotwing, 소프트윙, 디미고, 디지털미디어고등학교, 영상강의, 게임개발, 다큐멘터리, 게임">
 
 
-	<link rel="shortcut icon" href="images/softwing.ico">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="{% static 'images/softwing.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
-<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 
-	<script src="js/main.js"></script>
+	<script src="{% static 'js/main.js' %} "></script>
 
 	<style type="text/css">
 	@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
@@ -51,7 +51,7 @@
 							<ul class="softwing-header-top-ul">
 								<li class="softwing-header-top-li" id="softwing-header-top-li-logo">
 									<a class="softwing-header-top-a" id="softwing-header-top-a-logo" href="">
-										<img src="./images/softwing-logo-line.png" id="softwing-header-top-logo-image"/>
+										<img src="{% static 'images/softwing-logo-line.png' %} " id="softwing-header-top-logo-image"/>
 									</a>
 								</li>
 								<li class="softwing-header-top-li">
