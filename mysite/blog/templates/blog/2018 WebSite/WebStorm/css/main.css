@@ -1,0 +1,281 @@
+/*Copyright ⓒ 2018 Softwing All Rights Reserved*/
+/*Edited by Highwater Digital Entertainment*/
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.softwing-body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #FFFFFF;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    user-select:none;
+}
+
+.softwing-boxed-layout{
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    display: block;
+    color: #000000;
+}
+
+
+
+.softwing-header-top{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    z-index: 999;
+    -webkit-box-shadow: -3px 2px 2px #000000AA;
+    -moz-box-shadow: -3px 2px 2px #000000AA;
+    box-shadow: -3px 2px 2px #000000AA;
+}
+
+.softwing-header-top-grid{
+    max-width: 1160px;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+}
+
+.softwing-header-top-holder{
+    padding: 0;
+}
+
+.softwing-header-top-ul{
+    margin: 0;
+    padding: 0;
+}
+
+.softwing-header-top-li{
+    position: relative;
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    float: right;
+    padding: 0 0 0 0;
+    margin: 13px 0 0 0;
+    z-index: 9999;
+}
+
+.softwing-header-top-li:hover{
+    cursor: pointer;
+    animation-name: lihover;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes lihoverback{
+    0% {
+        background-color: #EEEEEE;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes lihover{
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #EEEEEE;
+    }
+}
+
+.softwing-header-top-li-div{
+    display: inline-block;
+    width: 100%;
+}
+
+.softwing-header-top-a{
+    line-height: 40px;
+}
+
+a.softwing-header-top-a:link{
+    color: #000000;
+}
+
+a.softwing-header-top-a:visited{
+    color: #000000;
+}
+
+a.softwing-header-top-a:hover{
+    color: #000000;
+}
+
+a.softwing-header-top-a:active{
+    color: #000000;
+}
+
+.softwing-header-top-openmenu{
+    width: 0;
+    height: 0;
+}
+
+.softwing-header-top-li-div-div{
+    width: fit-content;
+    display: inline-block;
+}
+
+#softwing-header-top-li-logo{
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0 35px;
+}
+
+#softwing-header-top-li-logo:hover{
+    background-color: transparent;
+    cursor: default;
+    animation: none;
+}
+
+#softwing-header-top-li-logo:active{
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#softwing-header-top-logo-image{
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.softwing-header-top-submenu-holder{
+    margin: -3px 0 0 0;
+    width: 140px;
+    overflow: hidden;
+}
+
+.softwing-header-top-submenu-ul{
+    background-color: #FFFFFF;
+    line-height: 39px;
+    padding: 0;
+    list-style: none;
+    width: 140px;
+    height: 100%;
+}
+
+.softwing-header-top-submenu-li{
+    color: #EEEEEE;
+    border: solid #DDDDDD;
+    border-width: 0 1px 0 1px;
+}
+
+li.softwing-header-top-submenu-li:first-child{
+    border-top: 3px solid #000000;
+}
+
+.softwing-header-top-submenu-li:hover{
+    background-color: #F4F4F4;
+}
+
+.softwing-header-top-submenu-a{
+    width: 100%;
+    height: 100%;
+}
+
+a.softwing-header-top-submenu-a:link{
+    color: #000000;
+}
+
+a.softwing-header-top-submenu-a:visited{
+    color: #000000;
+}
+
+a.softwing-header-top-submenu-a:hover{
+    color: #000000;
+}
+
+a.softwing-header-top-submenu-a:active{
+    color: #000000;
+}
+
+.softwing-header-top-submenu-a-div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.softwing-footer-holder{
+    height: 140px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.softwing-footer-language-holder{
+    display: inline-block;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0;
+}
+
+.softwing-footer-language{
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #AAAAAA;
+}
+
+.softwing-footer-language-ul{
+    padding: 0;
+}
+
+.softwing-footer-language-li{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.softwing-footer-copyright-holder{
+    display: inline-block;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0;
+}
+
+.softwing-footer-copyright{
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777;
+}
+
+
+.softwing-header-block{
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    height: 100vh;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.softwing-header-block-holder{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    transform: translateY(30vh);
+    color: black;
+}

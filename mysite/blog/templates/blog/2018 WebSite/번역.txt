@@ -1,0 +1,93 @@
+메인메뉴
+
+소개/알림  Introduce
+인사말  Greetings
+연혁  History
+상징  Symbols
+소식  News
+갤러리  Galary
+제품 구매  Purchase
+처음 만나는 C언어 first Meetings for C Language
+프로젝트 Projects
+콘텐츠 영상 Contents Video
+픽션 영상 Fiction Video
+게임 Game
+소프트웨어 Software
+웹 Web
+활동 멤버 Members
+
+
+index.html
+
+당신의 꿈을 위한 날개	A Wing for All Your Dreams
+당신의 꿈은 무엇인가요  WHAT'S YOUR DREAM?
+꿈을 찾아 더 멀리  To Find a Dream
+처음 만나는 C언어  FIRST MEETINGS FOR C LANGUAGE
+C언어가 처음인 당신을 위해  For You, First for C Language
+Marshmelody  MARSHMELODY
+음악 공유 및 스트리밍 플랫폼 Music Sharing and Streaming Platform
+준비중  Coming Soon
+자세히 보기  See More
+
+
+contents.html
+
+당신의 꿈은 무엇인가요  WHAT'S YOUR DREAM?
+꿈을 찾아 더 멀리  To Find a Dream
+나의 꿈을 찾기 위해 타인의 꿈을 알아보세요.  Learn about others' dreams to find mine.s
+꿈을 찾아가는 학생들의 인터뷰 영상입니다.  These are interview videos of the students looking for their dreams.
+처음 만나는 C언어  FIRST MEETINGS FOR C LANGUAGE
+블록강의로 더 쉽게  More easily by block lecture
+C언어가 처음이라구요?  Is this your first time for C language?
+당신을 위해 준비한 C언어 강의입니다.  This is a C language course just for you.
+PlayX4에서  At PlayX4
+2018년 5월 13일  13rd May 2018
+플레이엑스포 2018 참가  attending PlayX4 2018
+네이버 데뷰 2016  Naver Deview 2016
+Naver Deview에서 At Naver Deview
+2016년 10월 24일 24th October 2016
+네이버 데뷰 2016 참가  attending Naver Deview 2016
+2016 디미고 플래시몹  2016 KDMHS Flashmob
+한여름 디미고의 플래시몹  Mid-summer Flashmob in KDMHS
+7월, 무더운 한국디지털미디어고등학교에서  In July, at hot Korea Digital Media Highschool
+In association with 여우사이  In association with KDMHS Cast
+
+
+fiction.html
+
+디치전 (가제)  DCD (Working Title)
+웹드라마  Web Movie
+디미고 치킨 전달  KDMHS Chicken Delivery Service
+범죄 스릴러  Crime thriller
+
+
+game.html
+
+Myth Take  Myth Take
+플레이어가 만들어지는 새로운 신화  New Myth You Create
+로우폴리 3D 오픈월드 RPG  Low-poly 3D open world RPG
+메타픽션의 즐거움  The fun from metafiction story
+리비도를 사랑하는 방법  How to Love Ribido
+비주얼노벨  Visual Novel
+욕망을 혐오했던 소년이 있었습니다.  There was a boy who hated ribido.
+그리고 욕망이 보이지 않는 소녀가 있었습니다.  And there was a girl who didn't have ribido.
+그들이 엮어 나가는 이야기.  A story they weave.
+태풍키우기  Typhoon Maker
+태풍을 키워 피해액을 늘려라  Raise the typhoon and increase the damage.
+모바일 방치형 클릭커 게임  Mobile Clicker Game
+
+
+software.html
+
+Ctrl S 매크로  Ctrl S Macro
+블루스크린으로부터 안전하게  Safe from Bluescreens
+지정된 프로그램이 활성화되어 있을 때 일정 시간마다 Ctrl+S를 눌러드립니다.  This press Ctrl+S regularly when some specified program is active.
+
+
+web.html
+
+설치 없이 편리하게  Conveniently without Installation
+게임 제작부터 유통까지 웹에서 한 번에  To publishing from game making at once
+웹 RPG게임엔진 및 플랫폼  Web RPG Game Engine and Platform
+음악 공유와 스트리밍  Music Sharing and Streaming
+커버송 문화 정착 및 크리에이터 지원을 위한 음악 업로딩 및 스트리밍 사이트  Music uploading and streaming website to establish cover song culture and support creators

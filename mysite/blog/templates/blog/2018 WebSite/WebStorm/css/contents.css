@@ -1,0 +1,43 @@
+.softwing-contents-background{
+    z-index: 1;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url("../images/contents_background.png") fixed center top;
+}
+
+#softwing-contents-content-dream{
+    background: url("../images/dream-titleimg.png") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#softwing-contents-content-clecture{
+     background: url("../images/clecture-titleimg.jpg") center;
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+}
+
+#softwing-contents-content-playx4{
+    background: url("../images/playx4-titleimg.png") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#softwing-contents-content-naverdeview{
+    background: url("../images/naverdeview-titleimg.jpg") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#softwing-contents-content-flashmob{
+    background: url("../images/flashmob-titleimg.png") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

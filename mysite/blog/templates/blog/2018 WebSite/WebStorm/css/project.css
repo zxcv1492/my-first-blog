@@ -1,0 +1,151 @@
+.softwing-project{
+    overflow: hidden;
+    opacity: 0;
+}
+
+.softwing-project-background-holder{
+    height: 500px;
+}
+
+.softwing-project-content{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+.softwing-project-holder{
+    width: 100%;
+    max-width: 1260px;
+    display: inline-block;
+    margin: 70px 0 70px 0;
+}
+
+.softwing-project-content-holder{
+    height: fit-content;
+    margin: 0;
+}
+
+@keyframes upFromBottom{
+    0% {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.softwing-project-content-left{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    min-width: 460px;
+}
+
+.softwing-project-content-right{
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    margin: 0;
+    float: right;
+    text-align: center;
+    min-width: 460px;
+}
+
+.softwing-project-content-show-1{
+    animation: upFromBottom 1.5s ease;
+    animation-fill-mode: both;
+}
+
+.softwing-project-content-text-holder{
+    margin: 140px 0 0 0;
+    width: 400px;
+    display: inline-block;
+}
+
+.softwing-project-content-text-top{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 0 4px 0;
+}
+
+.softwing-project-content-text-year{
+    text-align: left;
+    font-size: 8px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 20px 8px;
+}
+
+.softwing-project-content-text-middle{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+    color: #333333;
+    margin: 0 0 16px 3px;
+}
+
+.softwing-project-content-text-down{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    margin: 0 0 0 4px;
+    line-height: 1.6em;
+}
+
+.softwing-project-content-button-holder{
+    width: fit-content;
+    height: fit-content;
+    margin: 16px 0 0 8px;
+}
+
+.softwing-project-content-button-button{
+    width: 120px;
+    height: 40px;
+    border-radius: 22px;
+    border: 2px solid #333333;
+    color: #111111;
+    background-color: transparent;
+    text-align: center;
+    line-height: 40px;
+    animation-name: buttonhoverback;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.softwing-project-content-button-button:hover{
+    animation-name: buttonhover;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+@keyframes buttonhoverback{
+    0% {
+        color: #FFFFFF;
+        background-color: #333333;
+    }
+    100% {
+        color: #111111;
+        background-color: transparent;
+    }
+}
+
+@keyframes buttonhover{
+    0% {
+        color: #111111;
+        background-color: transparent;
+    }
+    100% {
+        color: #FFFFFF;
+        background-color: #333333;
+    }
+}

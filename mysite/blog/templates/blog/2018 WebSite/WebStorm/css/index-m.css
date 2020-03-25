@@ -1,0 +1,300 @@
+/*Copyright ⓒ 2018 Softwing All Rights Reserved*/
+/*Edited by Highwater Digital Entertainment*/
+
+
+
+.softwing-content{
+    background-color: #EEEEEE;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.softwing-content-top-background{
+    background-image: linear-gradient(135deg, #DDDDDD, #FFFFFF 20%, #FFFFFF);
+}
+
+.softwing-content-top-holder{
+    height: 100vh;
+    width: 100%;
+    max-width: 1160px;
+    display: inline-block;
+    min-height: 600px;
+}
+
+.softwing-content-top-content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-44%);
+}
+
+@keyframes downFromTop{
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.softwing-content-top-text{
+    animation: downFromTop 1.5s ease;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.softwing-content-top-logo{
+    animation: downFromTop 1.5s ease;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    height: 200px;
+    margin-top: 60px;
+}
+
+#softwing-content-top-logo-image{
+    width: 80%;
+    max-width: 950px;
+}
+
+.softwing-content-second-background{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #EEEEEE;
+    height: fit-content;
+}
+
+.softwing-content-second-holder{
+    height: fit-content;
+    width: 100%;
+    max-width: 1160px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    min-height: 500px;
+}
+
+.softwing-content-second-content{
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+.softwing-content-second-projects{
+    width: 100%;
+    height: fit-content;
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+
+.softwing-content-second-projects-project{
+    width: 50%;
+    display: inline-block;
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+.softwing-content-second-projects-project-in{
+    margin: 10px;
+    background-color: #DADADA;
+    overflow: hidden;
+    text-align: center;
+    height: fit-content;
+}
+
+.softwing-content-second-project-image-holder{
+    display: inline-block;
+    width: 90%;
+    margin-top: 14px;
+}
+
+.softwing-content-second-project-image{
+    width: 100%;
+}
+
+.softwing-content-second-project-text-up-one-one{
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.softwing-content-second-project-text-down-one-one{
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.softwing-content-second-project-text-up-one-two{
+    margin-top: 35px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.softwing-content-second-project-text-down-one-two{
+    margin-top: 26px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.softwing-content-second-project-text-up-two-one{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.softwing-content-second-project-text-down-two-one{
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.softwing-content-second-project-button-holder{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px 0 0 0;
+}
+
+.softwing-content-second-project-button-holder-one-two{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 41px 0 0 0;
+}
+
+.softwing-content-second-project-button{
+    width: 120px;
+    height: 36px;
+    border-radius: 19px;
+    border: 2px solid #333333;
+    color: #111111;
+    background-color: #CCCCCC55;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 36px;
+    animation-name: buttonhoverback;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+}
+
+.softwing-content-second-project-button:hover{
+    animation-name: buttonhover;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+.softwing-content-second-button-holder{
+    width: fit-content;
+    height: fit-content;
+    margin: 40px 0 0 0;
+    display: inline-block;
+}
+
+.softwing-content-second-button{
+    width: 160px;
+    height: 40px;
+    border-radius: 22px;
+    border: 2px solid #333333;
+    color: #111111;
+    background-color: #BBBBBB;
+    text-align: center;
+    line-height: 40px;
+    animation-name: buttonhoverback;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.softwing-content-second-button:hover{
+    animation-name: buttonhover;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+@keyframes buttonhoverback{
+    0% {
+        color: #FFFFFF;
+        background-color: #333333;
+    }
+    100% {
+        color: #111111;
+        background-color: #EEEEEE;
+    }
+}
+
+@keyframes buttonhover{
+    0% {
+        color: #111111;
+        background-color: #EEEEEE;
+    }
+    100% {
+        color: #FFFFFF;
+        background-color: #333333;
+    }
+}
+
+.softwing-content-third-background{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: linear-gradient(45deg, #EEEEEE, #FFFFFF 30%, #EEEEEE 70%, #FFFFFF) center top;
+    height: fit-content;
+}
+
+.softwing-content-third-holder{
+    height: fit-content;
+    width: 100%;
+    max-width: 1160px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    min-height: 340px;
+}
+
+.softwing-content-third-content{
+    width: 100%;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.softwing-content-third-content-item{
+    display: inline-block;
+    width: 100%;
+    height: fit-content;
+    float: left;
+    text-align: center;
+}
+
+.softwing-content-third-content-a-holder{
+    display: inline;
+    width: fit-content;
+    height: fit-content;
+    line-height: 180px;
+}
+
+.softwing-content-third-content-a{
+    width: fit-content;
+    height: fit-content;
+}
+
+#softwing-content-third-content-twitter{
+    height: 80px;
+}
+
+#softwing-content-third-content-facebook{
+    height: 80px;
+}
+
+#softwing-content-third-content-youtube{
+    height: 80px;
+}
+
+.softwing-content-third-text{
+    color: #000000;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: -135px;
+}

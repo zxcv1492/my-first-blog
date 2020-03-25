@@ -1,0 +1,15 @@
+.softwing-software-background{
+    z-index: 1;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url("../images/software_background.png") fixed center top;
+}
+
+#softwing-software-content-ctrls{
+    background: url("../images/ctrls-titleimg.png") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

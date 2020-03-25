@@ -1,0 +1,21 @@
+.softwing-greetings-background{
+    z-index: 1;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url("../images/greetings_background.jpg") fixed center top;
+    text-align: center;
+}
+
+.softwing-greetings-text-holder{
+    text-align: left;
+    display: inline-block;
+    width: 90%;
+}
+
+.softwing-greetings-text{
+    font-size: 18px;
+    line-height: 26px;
+    width: 100%;
+}

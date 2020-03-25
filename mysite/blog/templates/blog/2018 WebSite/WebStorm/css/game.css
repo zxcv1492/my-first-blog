@@ -1,0 +1,29 @@
+.softwing-game-background{
+    z-index: 1;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url("../images/game_background.jpg") fixed center top;
+}
+
+#softwing-game-content-mythtake{
+    background: url("../images/mythtake-titleimg.png") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#softwing-game-content-ribido{
+    background: url("../images/ribido-titleimg.jpg") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#softwing-game-content-typoon{
+    background: url("../images/typoon-titleimg.png") center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

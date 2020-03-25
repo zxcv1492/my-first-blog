@@ -1,0 +1,344 @@
+<!-- Copyright ⓒ 2018 Softwing All Rights Reserved -->
+<!-- Edited by Highwater Digital Entertainment -->
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SOFTWING Ent.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="종합 엔터테인먼트 기업 SOFTWING Entertainment">
+    <meta name="author" content="2018 SOFTWING Entertainment">
+    <meta name="google-site-verification" content="pD4CXhV8uVvrPRscz_kKHPG2isVfELSTW5dWISVi1vI"/>
+    <meta name="keywords" content="Softwing, 소프트윙, 디미고, 디지털미디어고등학교, 영상강의, 게임개발, 다큐멘터리, 게임">
+    <meta name="theme-color" content="#FFFFFF">
+
+    <link rel="shortcut icon" href="images/softwing.ico">
+    <link rel="stylesheet" href="css/main.css" id="softwing-stylesheet-main">
+    <link rel="stylesheet" href="css/index.css" id="softwing-stylesheet-index">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+
+    <script src="./js/main-index.js"></script>
+    <script src="./js/index.js"></script>
+
+    <style type="text/css">
+        *{
+            font-family: 'NanumSquare', '나눔스퀘어', 'Noto Sans KR', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+
+</head>
+<body class="softwing-body" style="background:#FFFFFF;" onload="init()">
+
+<div class="softwing-boxed-layout">
+    <header class="softwing-header" id="softwing-header">
+        <div class="softwing-header-holder">
+            <div class="softwing-header-top" id="softwing-header-top">
+                <div class="softwing-header-top-grid" id="softwing-header-top-grid">
+                    <div class="softwing-header-top-holder">
+                        <ul class="softwing-header-top-ul" id="softwing-header-top-ul">
+                            <li class="softwing-header-top-li" id="softwing-header-top-li-logo">
+                                <a class="softwing-header-top-a" id="softwing-header-top-a-logo" href="">
+                                    <img src="./images/softwing-logo-line-big.png" id="softwing-header-top-logo-image">
+                                </a>
+                                <img class="softwing-header-top-openmenu" src="./images/menu-button.png" onclick="toggleMenu()">
+                            </li>
+                            <li class="softwing-header-top-li" id="softwing-header-top-li-member" onmouseover="showSubMenuMember(3)" onmouseleave="hideSubMenuMember()">
+                                <a class="softwing-header-top-a" id="softwing-header-top-a-member" href="./old/team.html">
+                                    <div class="softwing-header-top-li-div" id="softwing-header-top-li-div-member">
+                                        <div class="softwing-header-top-li-div-div" id="softwing-header-top-li-div-div-member">
+                                            활동 멤버
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="softwing-header-top-submenu-holder" id="softwing-header-top-submenu-holder-member" style="height:0px;">
+                                    <ul class="softwing-header-top-submenu-ul">
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./old/team.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    2018
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./old/team.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    2017
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./old/team.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    2016
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="softwing-header-top-li" id="softwing-header-top-li-project" onmouseover="showSubMenuProject(5)" onmouseleave="hideSubMenuProject()">
+                                <a class="softwing-header-top-a" id="softwing-header-top-a-project" href="./project/contents.html">
+                                    <div class="softwing-header-top-li-div" id="softwing-header-top-li-div-project">
+                                        <div class="softwing-header-top-li-div-div" id="softwing-header-top-li-div-div-project">
+                                            프로젝트
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="softwing-header-top-submenu-holder" id="softwing-header-top-submenu-holder-project" style="height:0px;">
+                                    <ul class="softwing-header-top-submenu-ul">
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./project/contents.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    콘텐츠 영상
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./project/fiction.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    픽션 영상
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./project/game.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    게임
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./project/software.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    소프트웨어
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./project/web.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    웹
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="softwing-header-top-li" id="softwing-header-top-li-product" onmouseover="showSubMenuProduct(1)" onmouseleave="hideSubMenuProduct()">
+                                <a class="softwing-header-top-a" id="softwing-header-top-a-product" href="./project/contents.html">
+                                    <div class="softwing-header-top-li-div" id="softwing-header-top-li-div-product">
+                                        <div class="softwing-header-top-li-div-div" id="softwing-header-top-li-div-div-product">
+                                            제품 구매
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="softwing-header-top-submenu-holder" id="softwing-header-top-submenu-holder-product" style="height:0px;">
+                                    <ul class="softwing-header-top-submenu-ul">
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" target="_blank" href="https://www.youtube.com/watch?v=i-TmEhxttNU&amp;list=PLmAydYHcGIa7ey45LQxINUm86npJYdNGg">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    처음 만나는 C언어
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="softwing-header-top-li" id="softwing-header-top-li-introduce" onmouseover="showSubMenuIntroduce(4)" onmouseleave="hideSubMenuIntroduce()">
+                                <a class="softwing-header-top-a" id="softwing-header-top-a-introduce" href="./old/index.html">
+                                    <div class="softwing-header-top-li-div" id="softwing-header-top-li-div-introduce">
+                                        <div class="softwing-header-top-li-div-div" id="softwing-header-top-li-div-div-introduce">
+                                            소개/알림
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="softwing-header-top-submenu-holder" id="softwing-header-top-submenu-holder-introduce" style="height:0px;">
+                                    <ul class="softwing-header-top-submenu-ul">
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./introduction/greetings.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    인사말
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./old/index.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    연혁
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./old/index.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    상징
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="softwing-header-top-submenu-li">
+                                            <a class="softwing-header-top-submenu-a" href="./old/index.html">
+                                                <div class="softwing-header-top-submenu-a-div">
+                                                    소식
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div class="softwing-content">
+        <div class="softwing-content-holder">
+            <div class="softwing-content-top-background">
+                <div class="softwing-content-top-holder">
+                    <div class="softwing-content-top-content">
+                        <div class="softwing-content-top-text">
+                            당신의 꿈을 위한 날개
+                        </div>
+                        <div class="softwing-content-top-logo">
+                            <img src="./images/softwing-logo-line-big.png" id="softwing-content-top-logo-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="softwing-content-second-background">
+                <div class="softwing-content-second-holder">
+                    <div class="softwing-content-second-content">
+                        <div class="softwing-content-second-projects">
+                            <div class="softwing-content-second-projects-project">
+                                <div class="softwing-content-second-projects-project-in" id="softwing-content-second-projects-project-in-first">
+                                    <div class="softwing-content-second-project-image-holder">
+                                        <img src="./images/dream-titleimg.png" class="softwing-content-second-project-image"/>
+                                    </div>
+                                    <div class="softwing-content-second-project-text-up-two-one">
+                                        당신의 꿈은<br>무엇인가요
+                                    </div>
+                                    <div class="softwing-content-second-project-text-down-two-one">
+                                        꿈을 찾아 더 멀리
+                                    </div>
+                                    <div class="softwing-content-second-project-button-holder">
+                                        <a href="https://www.youtube.com/playlist?list=PLmAydYHcGIa7f6LAiR11zAFrhO-GGH5eM" target="_blank">
+                                            <div class="softwing-content-second-project-button">
+                                                자세히 보기
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div><br><br></div>
+                                </div>
+                            </div>
+                            <div class="softwing-content-second-projects-project">
+                                <div class="softwing-content-second-projects-project-in" id="softwing-content-second-projects-project-in-second">
+                                    <div class="softwing-content-second-project-image-holder">
+                                        <img src="./images/clecture-titleimg.jpg" class="softwing-content-second-project-image"/>
+                                    </div>
+                                    <div class="softwing-content-second-project-text-up-one-one">
+                                        처음 만나는 C언어
+                                    </div>
+                                    <div class="softwing-content-second-project-text-down-one-one">
+                                        C언어가 처음인 당신을 위해
+                                    </div>
+                                    <div class="softwing-content-second-project-button-holder">
+                                        <a href="https://www.youtube.com/playlist?list=PLmAydYHcGIa7ey45LQxINUm86npJYdNGg" target="_blank">
+                                            <div class="softwing-content-second-project-button">
+                                                자세히 보기
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div><br><br></div>
+                                </div>
+                            </div>
+                            <div class="softwing-content-second-projects-project">
+                                <div class="softwing-content-second-projects-project-in" id="softwing-content-second-projects-project-in-third">
+                                    <div class="softwing-content-second-project-image-holder">
+                                        <img src="./images/marshmelody-titleimg.jpg" class="softwing-content-second-project-image"/>
+                                    </div>
+                                    <div class="softwing-content-second-project-text-up-one-one">
+                                        Marshmelody
+                                    </div>
+                                    <div class="softwing-content-second-project-text-down-one-one">
+                                        음악 공유 및 스트리밍 플랫폼
+                                    </div>
+                                    <div class="softwing-content-second-project-button-holder">
+                                        <a href="http://marshmelody.softwing.co.kr" target="_blank">
+                                            <div class="softwing-content-second-project-button">
+                                                자세히 보기
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div><br><br></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="softwing-content-second-button-holder">
+                            <a href="./project/contents.html">
+                                <div class="softwing-content-second-button">
+                                    모든 프로젝트 보기
+                                </div>
+                            </a>
+                        </div>
+                        <div><br><br><br><br></div>
+                    </div>
+                </div>
+            </div>
+            <div class="softwing-content-third-background">
+                <div class="softwing-content-third-holder">
+                    <div class="softwing-content-third-content">
+                        <div class="softwing-content-third-content-item">
+                            <div class="softwing-content-third-content-a-holder">
+                                <a class="softwing-content-third-content-a" href="https://twitter.com/Softwing_" target="_blank">
+                                    <img src="./images/twitter-logo.png" id="softwing-content-third-content-twitter"/>
+                                </a>
+                                <div class="softwing-content-third-text">
+                                    @Softwing_
+                                </div>
+                            </div>
+                        </div>
+                        <div class="softwing-content-third-content-item">
+                            <div class="softwing-content-third-content-a-holder">
+                                <a class="softwing-content-third-content-a" href="https://www.facebook.com/2018softwing/" target="_blank">
+                                    <img src="./images/facebook-logo.png" id="softwing-content-third-content-facebook"/>
+                                </a>
+                                <div class="softwing-content-third-text">
+                                    @2018softwing
+                                </div>
+                            </div>
+                        </div>
+                        <div class="softwing-content-third-content-item">
+                            <div class="softwing-content-third-content-a-holder">
+                                <a class="softwing-content-third-content-a" href="https://www.youtube.com/channel/UCdWXxRUHupwYxdGcooCVqEQ" target="_blank">
+                                    <img src="./images/youtube-logo.png" id="softwing-content-third-content-youtube"/>
+                                </a>
+                                <div class="softwing-content-third-text">
+                                    Softwing Entertainment
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="softwing-footer" id="softwing-footer">
+
+    </footer>
+
+</div>
+
+</body>
+</html>

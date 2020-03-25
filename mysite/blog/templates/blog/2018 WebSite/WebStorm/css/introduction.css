@@ -1,0 +1,20 @@
+.softwing-introduction {
+    opacity: 0;
+}
+
+.softwing-introduction-background-holder{
+    height: 500px;
+}
+
+.softwing-introduction-content{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+.softwing-introduction-holder{
+    width: 100%;
+    max-width: 1260px;
+    display: inline-block;
+    margin: 70px 0 70px 0;
+}

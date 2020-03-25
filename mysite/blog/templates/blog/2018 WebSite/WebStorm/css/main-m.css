@@ -1,0 +1,283 @@
+/*Copyright ⓒ 2018 Softwing All Rights Reserved*/
+/*Edited by Highwater Digital Entertainment*/
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.softwing-body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #FFFFFF;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    user-select:none;
+}
+
+.softwing-boxed-layout{
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    display: block;
+    color: #000000;
+}
+
+
+
+.softwing-header-top{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    z-index: 999;
+    -webkit-box-shadow: -3px 2px 2px #000000AA;
+    -moz-box-shadow: -3px 2px 2px #000000AA;
+    box-shadow: -3px 2px 2px #000000AA;
+}
+
+.softwing-header-top-grid{
+    max-width: 1160px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.softwing-header-top-grid-open{
+    animation-name: openMenu;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.softwing-header-top-grid-close{
+    animation-name: closeMenu;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+@keyframes openMenu {
+    0% {
+        height: 50px;
+    }
+    100% {
+        height: 100vh;
+        overflow: scroll;
+    }
+}
+
+@keyframes closeMenu {
+    0% {
+        height: 100vh;
+    }
+    100% {
+        height: 50px;
+        overflow: hidden;
+    }
+}
+
+.softwing-header-top-holder{
+    padding: 0;
+}
+
+.softwing-header-top-ul{
+    margin: 0;
+    padding: 0;
+}
+
+.softwing-header-top-li{
+    position: relative;
+    width: 100%;
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0;
+    z-index: 9999;
+}
+
+.softwing-header-top-li:hover{
+    cursor: pointer;
+}
+
+#softwing-header-top-li-introduce{
+
+}
+
+.softwing-header-top-li-div{
+    display: inline-block;
+    width: 100%;
+}
+
+.softwing-header-top-a{
+    line-height: 50px;
+}
+
+a.softwing-header-top-a:link{
+    color: #000000;
+}
+
+a.softwing-header-top-a:visited{
+    color: #000000;
+}
+
+a.softwing-header-top-a:hover{
+    color: #000000;
+}
+
+a.softwing-header-top-a:active{
+    color: #000000;
+}
+
+.softwing-header-top-openmenu{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 5px 15px 0 0;
+}
+
+.softwing-header-top-li-div-div{
+    width: fit-content;
+    display: inline-block;
+}
+
+#softwing-header-top-li-logo{
+    float: left;
+    margin: 5px 0 0 0;
+    padding: 0 0;
+}
+
+#softwing-header-top-li-logo:hover{
+    background-color: transparent;
+    cursor: default;
+    animation: none;
+}
+
+#softwing-header-top-li-logo:active{
+    background-color: transparent;
+    opacity: 0.9;
+}
+
+#softwing-header-top-logo-image{
+    height: 40px;
+    padding: 0;
+    margin: 0 0 0 25px;
+}
+
+.softwing-header-top-submenu-holder{
+    margin: -3px 0 0 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.softwing-header-top-submenu-ul{
+    background-color: #FFFFFF;
+    line-height: 35px;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.softwing-header-top-submenu-li{
+    color: #EEEEEE;
+    border: none;
+}
+
+li.softwing-header-top-submenu-li:first-child{
+    border-top: none;
+}
+
+.softwing-header-top-submenu-li:hover{
+    background-color: #F4F4F4;
+}
+
+.softwing-header-top-submenu-a{
+    width: 100%;
+    height: 100%;
+}
+
+a.softwing-header-top-submenu-a:link{
+    color: #666666;
+}
+
+a.softwing-header-top-submenu-a:visited{
+    color: #666666;
+}
+
+a.softwing-header-top-submenu-a:hover{
+    color: #666666;
+}
+
+a.softwing-header-top-submenu-a:active{
+    color: #666666;
+}
+
+.softwing-header-top-submenu-a-div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.softwing-footer-holder{
+    height: 160px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.softwing-footer-language-holder{
+    display: inline-block;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0;
+}
+
+.softwing-footer-language{
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #AAAAAA;
+}
+
+.softwing-footer-language-ul{
+    padding: 0;
+}
+
+.softwing-footer-language-li{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.softwing-footer-copyright-holder{
+    display: inline-block;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0;
+}
+
+.softwing-footer-copyright{
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #777777;
+}
